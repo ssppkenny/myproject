@@ -9,10 +9,14 @@
 <div id="rectangle2">
 <div id="rectangle1">
 <form>
+<p>Electronica B3-34</p>
 <div id="indicator">
 <input id="rx" type="text" value="0">
 </div>
-
+<div id="rectangle3">
+<input id="f" type="button" value="F">
+<input id="frommemory" type="button" value="FM">
+<input id="tomemory" type="button" value="TM">
 <input id="button1" type="button" value="1">
 <input id="button2" type="button" value="2">
 <input id="button3" type="button" value="3">
@@ -20,6 +24,7 @@
 <input id="push" type="button" value="!">
 <input id="operationplus" type="button" value="+">
 <input id="operationmultiply" type="button" value="*">
+</div>
 <input id="ry" type="hidden" value="0">
 <input id="rz" type="hidden" value="0">
 <input id="rt" type="hidden" value="0">

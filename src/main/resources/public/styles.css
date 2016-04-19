@@ -14,6 +14,14 @@
     height: 470px;
 }
 
+#rectangle3 {
+    border-radius: 15px;
+    background: #e6e6f0;
+    padding: 15px;
+    width: 280px;
+    height: 340px;
+}
+
 #indicator {
     border-radius: 2px;
     background: #003300;
@@ -29,4 +37,14 @@
     font-size: 16px;
     border: 0px solid;
     text-align: right;
+}
+
+input[type=button] {
+    padding: 2px;
+	width: 45px;
+	height: 45px;
+	color: #ffffff;
+	background: #000000;
+	font-size: 16px;
+	font-style: bold;
 }
