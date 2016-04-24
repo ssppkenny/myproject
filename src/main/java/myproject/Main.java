@@ -10,7 +10,9 @@ import org.myproject.json.JsonParser;
 import org.myproject.json.JsonTransformer;
 import org.myproject.operation.Operation;
 import org.myproject.operation.impl.Addition;
+import org.myproject.operation.impl.Division;
 import org.myproject.operation.impl.Multiplication;
+import org.myproject.operation.impl.Subtraction;
 import org.myproject.state.State;
 
 
@@ -56,6 +58,12 @@ public class Main {
 				break;
 			case "*":
 				operator= new Multiplication(state);
+				break;
+			case "/":
+				operator= new Division(state);
+				break;
+			case "-":
+				operator= new Subtraction(state);
 				break;
 			default:
 				break;

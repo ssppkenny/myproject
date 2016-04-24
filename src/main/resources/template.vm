@@ -34,13 +34,22 @@
       <input id="f" type="button" value="F">
       <input id="frommemory" type="button" value="FM">
       <input id="tomemory" type="button" value="TM">
+      <input id="button0" type="button" value="0">
       <input id="button1" type="button" value="1">
       <input id="button2" type="button" value="2">
       <input id="button3" type="button" value="3">
+      <input id="button4" type="button" value="4">
+      <input id="button5" type="button" value="5">
+      <input id="button6" type="button" value="6">
+      <input id="button7" type="button" value="7">
+      <input id="button8" type="button" value="8">
+      <input id="button9" type="button" value="9">
       <input id="buttonpoint" type="button" value=".">
       <input id="push" type="button" value="!">
       <input id="operationplus" type="button" value="+">
+      <input id="operationminus" type="button" value="-">
       <input id="operationmultiply" type="button" value="*">
+      <input id="operationdivide" type="button" value="/">
       </div>
       <input id="ry" type="hidden" value="0">
       <input id="rz" type="hidden" value="0">
