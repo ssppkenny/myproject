@@ -1,40 +1,62 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>$title</title>
-<script src="jquery-1.12.3.js"></script>
-<script src="prj.js"></script>
-<link rel="stylesheet" type="text/css" href="styles.css"/>
-</head>
-<body>
-<div id="rectangle2">
-<div id="rectangle1">
-<form>
-<p>Electronica B3-34</p>
-<div id="indicator">
-<input id="rx" type="text" value="0">
-</div>
-<div id="rectangle3">
-<input id="f" type="button" value="F">
-<input id="frommemory" type="button" value="FM">
-<input id="tomemory" type="button" value="TM">
-<input id="button1" type="button" value="1">
-<input id="button2" type="button" value="2">
-<input id="button3" type="button" value="3">
-<input id="buttonpoint" type="button" value=".">
-<input id="push" type="button" value="!">
-<input id="operationplus" type="button" value="+">
-<input id="operationmultiply" type="button" value="*">
-</div>
-<input id="ry" type="hidden" value="0">
-<input id="rz" type="hidden" value="0">
-<input id="rt" type="hidden" value="0">
-<input id="move" type="hidden" value="0">
+  <head>
+    <meta charset="utf-8">
+    <title>Layout</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script type="text/javascript" src="jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="prj.js"></script>
+    
+  </head>
+  </head>
+  <body>
+  <div class="w-clearfix wrapper">
+    <div class="child_01">
+      <p class="content_01">
+        Programmable calculators are calculators that can automatically carry out a sequence of operations under control of a stored program, much like a computer. The first programmable calculators such as the IBM CPC used punched cards or other media for program storage. Hand-held electronic calculators store programs on magnetic strips, removable read-only memory cartridges, or in battery-backed read/write memory.
 
-</form>
+
 </div>
-</div>
-#if ($state)
-$state
-#end
+    <div class="child_02">
+      <p class="content_01">
+       Since the early 1990s, most of these flexible handheld units belong to the class of graphing calculators. Before the mass-manufacture of inexpensive dot-matrix LCD displays however, programmable calculators usually featured a one-line numeric or alphanumeric display. The Big Four manufacturers of programmable calculators are Casio, Hewlett-Packard, Sharp, and Texas Instruments. All of the above have also made pocket computers in the past, especially Casio and Sharp.
+      </p>
+    </div>
+    <div class="calc">
+      <div id="rectangle2">
+      <div id="rectangle1">
+      <form>
+      <p>Electronica B3-34</p>
+      <div id="indicator">
+      <input id="rx" type="text" value="0">
+      </div>
+      <div id="rectangle3">
+      <input id="f" type="button" value="F">
+      <input id="frommemory" type="button" value="FM">
+      <input id="tomemory" type="button" value="TM">
+      <input id="button1" type="button" value="1">
+      <input id="button2" type="button" value="2">
+      <input id="button3" type="button" value="3">
+      <input id="buttonpoint" type="button" value=".">
+      <input id="push" type="button" value="!">
+      <input id="operationplus" type="button" value="+">
+      <input id="operationmultiply" type="button" value="*">
+      </div>
+      <input id="ry" type="hidden" value="0">
+      <input id="rz" type="hidden" value="0">
+      <input id="rt" type="hidden" value="0">
+      <input id="move" type="hidden" value="0">
+
+      </form>
+      </div>
+      </div>
+    </div>
+    <div class="child_03">
+      <p class="content_01">
+        Many calculators of this type are monochrome LCD, some are four-colour (red or orange, green, blue, and black), or, in the case of some machines at the top of the line as of February 2015 colour similar to monitors displaying 8 or 16 bit graphics. As they are used for graphing functions, the screens of these machines are pixel-addressable. Some have a touch screen, buzzers or other sound producers, internal clocks, modems or other connectivity devices including IrDA transceivers, several types of ports for peripherals like printers, and ports for memory cards of a number of types.</p>
+    </p>
+    </div>
+
+  </div>
 </body>
 </html>

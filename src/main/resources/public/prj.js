@@ -17,6 +17,7 @@ function apply(){
   });
   
   $('[id^="button"]').on('click', function(){
+	
     var rx = $('#rx');
     var move = $('#move');
     if ( $(move).val() == 0 )
